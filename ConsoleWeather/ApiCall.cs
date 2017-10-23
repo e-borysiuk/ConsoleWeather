@@ -6,7 +6,7 @@ namespace ConsoleWeather
     public class APICall
     {
         private string _url;
-        private const string ApiKey = "???";
+        private const string ApiKey = "---";
         private XDocument _response;
 
         public APICall(string cityName)

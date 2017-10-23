@@ -21,13 +21,13 @@ namespace ConsoleWeather
         {
             if (new FileInfo("fav.dat").Exists && new FileInfo("fav.dat").Length > 0)
             {
-                WindowManager.UpdateWindow(82, 28);
-                WindowManager.UpdateWindow(82, 28);
+                WindowManager.UpdateWindow(84, 28);
+                WindowManager.UpdateWindow(84, 28);
             }
             else
             {
-                WindowManager.UpdateWindow(82, 20);
-                WindowManager.UpdateWindow(82, 20);
+                WindowManager.UpdateWindow(84, 20);
+                WindowManager.UpdateWindow(84, 20);
             }
 
             WindowManager.SetWindowTitle("ConsoleWeather");

@@ -23,10 +23,10 @@ namespace ConsoleWeather
 
             Button customBtn = new Button(8, 34, "Custom query", "customBtn", this) { Action = delegate () { OpenCustomWindow(); } };
 
-            primaryCityArea = new TextArea(10, 41, 40, 6, "primaryCityArea", this);
+            primaryCityArea = new TextArea(10, 42, 40, 6, "primaryCityArea", this);
             primaryCityArea.BackgroundColour = ConsoleColor.DarkGray;
             primaryCityArea.Selectable = false;
-            secondaryCityArea = new TextArea(10, 0, 40, 6, "secondaryCityArea", this);
+            secondaryCityArea = new TextArea(10, 1, 40, 6, "secondaryCityArea", this);
             secondaryCityArea.BackgroundColour = ConsoleColor.DarkGray;
             secondaryCityArea.Selectable = false;
             
