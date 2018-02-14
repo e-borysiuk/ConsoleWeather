@@ -21,12 +21,7 @@ namespace ConsoleWeather
 
         public string FormatInformation()
         {
-            return "Miejscowość: " + _cityName + ", " + _country + "\n" +
-                   "Położenie: " + _coords + "\n" +
-                   "Temperatura: " + _temperature + "°C" + "\n" +
-                   "Wilogtność: " + _humidity + "%" + "\n" +
-                   "Ciśnienie: " + _pressure + " hPa" + "\n" +
-                   "Prędkość wiatru: " + _windSpeed + "m/s";
+            return $"Miejscowość: {_cityName}, {_country}\nPołożenie: { _coords} \nTemperatura: {_temperature} °C \nWilogtność: {_humidity}% \nCiśnienie: {_pressure} hPa\nPrędkość wiatru: {_windSpeed} m/s";
         }
 
         public void ConvertResponse(XDocument response)
